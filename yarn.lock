@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@rabota/icons@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@rabota/icons/-/icons-1.0.2.tgz#74fc6e30be35544faad53a2fc90959aee0d6fa0f"
-  integrity sha512-j+CQ5Ihl8y7oX3jr6XcJo4RgdvVdQMZuFxfnSbNA9DJh6zq+PhmdZzSlM915qIebVJ6KrjTEjr2M6PyUhWm4ow==
+"@rabota/icons@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@rabota/icons/-/icons-1.0.3.tgz#2913adfffe1562022a573ccd0e5bfaf8172b903c"
+  integrity sha512-Q1c6ps3Z89jqgJxav1CIxRe6TiU93lnTCC2hM7/z7tRAthZiVKwfb1W6zZssFlTEQBQ3hzK8tcSXVpH/weqm1Q==
 
 JSONStream@^1.0.4:
   version "1.3.1"
