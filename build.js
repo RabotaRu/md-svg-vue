@@ -13,7 +13,7 @@ const ICONS_NS = [
   'hardware', 'image', 'maps', 'navigation', 'notification', 'places', 'social', 'toggle'
 ];
 const DIST_PATH = path.resolve(__dirname, 'dist');
-const SVG_PATH = path.resolve(__dirname, 'node_modules/material-design-icons');
+const SVG_PATH = path.resolve(__dirname, 'node_modules/@rabota/icons');
 const TPL_PATH = path.resolve(__dirname, 'build.vue');
 const PKG_FILE = path.resolve(__dirname, 'package.json');
 

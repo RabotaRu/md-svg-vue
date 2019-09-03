@@ -844,6 +844,7 @@ export MdCheck from './navigation/MdCheck.vue';
 export MdChevronLeft from './navigation/MdChevronLeft.vue';
 export MdChevronRight from './navigation/MdChevronRight.vue';
 export MdClose from './navigation/MdClose.vue';
+export MdCloseRounded from './navigation/MdCloseRounded.vue';
 export MdExpandLess from './navigation/MdExpandLess.vue';
 export MdExpandMore from './navigation/MdExpandMore.vue';
 export MdFirstPage from './navigation/MdFirstPage.vue';

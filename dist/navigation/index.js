@@ -11,6 +11,7 @@ export MdCheck from './MdCheck.vue';
 export MdChevronLeft from './MdChevronLeft.vue';
 export MdChevronRight from './MdChevronRight.vue';
 export MdClose from './MdClose.vue';
+export MdCloseRounded from './MdCloseRounded.vue';
 export MdExpandLess from './MdExpandLess.vue';
 export MdExpandMore from './MdExpandMore.vue';
 export MdFirstPage from './MdFirstPage.vue';

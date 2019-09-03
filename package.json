@@ -1,6 +1,6 @@
 {
-  "name": "md-svg-vue",
-  "version": "1.0.20",
+  "name": "@rabota/md-svg-vue",
+  "version": "1.0.0",
   "description": "Server Side Material Design Icons (SVG) for Vue.js",
   "main": "index.js",
   "repository": "git@github.com:IPRIT/md-svg-vue.git",
@@ -19,7 +19,7 @@
     "ssr"
   ],
   "bugs": {
-    "url": "https://github.com/IPRIT/md-svg-vue/issues"
+    "url": "https://github.com/RabotaRu/md-svg-vue/issues"
   },
   "author": "Alexander Belov <ipritoflex@yandex.ru>",
   "license": "MIT",
@@ -41,6 +41,6 @@
     "json-format": "^1.0.1",
     "lodash": "^4.17.4",
     "standard-version": "^4.2.0",
-    "material-design-icons": "^3.0.1"
+    "@rabota/icons": "^1.0.2"
   }
 }
