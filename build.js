@@ -50,8 +50,22 @@ const populateTemplate = (template, component) => {
     name: component.name,
     content: template
       .replace(/\{\{icon\}\}/g, kebabCase(component.name))
-      .replace(/\{\{path\}\}/g, component.path)
+      .replace(/\{\{paths\}\}/g, componentPaths(component.paths))
   }
+};
+
+const componentPaths = (paths) => {
+  const template = `h('path', {
+          attrs: {
+            d: '{{path}}'
+          },
+          style: {
+            fill: this.color
+          }
+        })`;
+  return paths.map(path => {
+    return template.replace(/\{\{path\}\}/g, path);
+  }).join(', ');
 };
 
 const buildIconComponents = async (templatePath, components) => {
@@ -98,11 +112,27 @@ const buildIconBodyList = (ns, svgPath, svgList) => {
       return {
         ns,
         name: toPascalCase(svg).slice(0, -8).slice(2),
-        path: await (async () => {
-          const svgFile = await readFileAsync(path.join(svgPath, svg));
-          const matches = /\sd="(.*)"/.exec(svgFile);
+        paths: await (async () => {
+          const regexStr = '\\sd="([ a-zA-Z0-9.-]+)"';
+          const dRegex = new RegExp( regexStr, 'i' );
+          const dGlobalRegex = new RegExp( regexStr, 'gi' );
 
-          return matches ? matches[1] : undefined
+          const svgFile = await readFileAsync(path.join(svgPath, svg));
+          const matches = svgFile.toString().match( dGlobalRegex );
+
+          const paths = [];
+
+          if (matches) {
+            matches.reduce((p, d) => {
+              const matched = d && d.match( dRegex );
+              return matched ? (
+                p.push( matched[1] ),
+                p
+              ) : p;
+            }, paths)
+          }
+
+          return paths;
         })()
       };
     });

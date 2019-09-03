@@ -36,14 +36,7 @@
       };
 
       return h('svg', data, [
-        h('path', {
-          attrs: {
-            d: '{{path}}'
-          },
-          style: {
-            fill: this.color
-          }
-        })
+        {{paths}}
       ]);
     }
   };

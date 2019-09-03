@@ -38,7 +38,14 @@
       return h('svg', data, [
         h('path', {
           attrs: {
-            d: 'M2 22h20V2z"/><path d="M14 10L2 22h12z'
+            d: 'M2 22h20V2z'
+          },
+          style: {
+            fill: this.color
+          }
+        }), h('path', {
+          attrs: {
+            d: 'M14 10L2 22h12z'
           },
           style: {
             fill: this.color
