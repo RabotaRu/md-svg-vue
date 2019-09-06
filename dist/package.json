@@ -28,7 +28,7 @@
     "prebuild": "npm run clean && mkdir dist",
     "build": "node build.js && cp *LICENSE dist && cp *.md dist",
     "release": "node ./node_modules/.bin/standard-version",
-    "docs": "npm run build && cd docs && yarn build && cd .. && push-dir --dir=docs/dist --branch=gh-pages --cleanup"
+    "docs": "npm run build && cd docs && yarn install && yarn build && cd .. && push-dir --dir=docs/dist --branch=gh-pages --cleanup"
   },
   "peerDependencies": {
     "vue": "^2.5.13"
