@@ -2,7 +2,7 @@
 export default {
   mode: 'spa',
   router: {
-    mode: 'hash'
+    mode: 'hash' // for correct works with relative path
   },
   /*
   ** Headers of the page
@@ -52,7 +52,7 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
-      config.output.publicPath = './_nuxt/'
+      config.output.publicPath = './_nuxt/' // for relative path
       return config
     }
   }

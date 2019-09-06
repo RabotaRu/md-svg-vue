@@ -26,6 +26,7 @@ export default {
         if (val) {
           try {
             // this approach only for demo. long generate all webpack chunks
+            // use eager for one chunk
             const component = await import(
               /* webpackMode: "eager" */
               `@rabota/md-svg-vue/dist/${val}.vue`)
