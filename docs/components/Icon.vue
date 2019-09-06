@@ -26,7 +26,9 @@ export default {
         if (val) {
           try {
             // this approach only for demo. long generate all webpack chunks
-            const component = await import(/* webpackChunkName: "icons" */ `@rabota/md-svg-vue/dist/${val}.vue`)
+            const component = await import(
+              /* webpackMode: "eager" */
+              `@rabota/md-svg-vue/dist/${val}.vue`)
             this.iconComp = component.default
           } catch (err) {
             // eslint-disable-next-line

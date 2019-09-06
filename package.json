@@ -27,12 +27,14 @@
     "clean": "rm -rf dist",
     "prebuild": "npm run clean && mkdir dist",
     "build": "node build.js && cp *LICENSE dist && cp *.md dist",
-    "release": "node ./node_modules/.bin/standard-version"
+    "release": "node ./node_modules/.bin/standard-version",
+    "docs": "npm run build && cd docs && yarn build && cd .. && push-dir --dir=docs/build --branch=gh-pages"
   },
   "peerDependencies": {
     "vue": "^2.5.13"
   },
   "devDependencies": {
+    "@rabota/icons": "^1.0.3",
     "babel": "^6.23.0",
     "babel-cli": "^6.24.1",
     "babel-plugin-transform-export-extensions": "^6.22.0",
@@ -40,7 +42,8 @@
     "babel-register": "^6.24.1",
     "json-format": "^1.0.1",
     "lodash": "^4.17.4",
-    "standard-version": "^4.2.0",
-    "@rabota/icons": "^1.0.3"
-  }
+    "push-dir": "^0.4.1",
+    "standard-version": "^4.2.0"
+  },
+  "dependencies": {}
 }
