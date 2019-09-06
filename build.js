@@ -152,6 +152,11 @@ async function build () {
     allComponents.push(...iconComponents);
   }
   await writeIndex('', DIST_PATH, allComponents, true);
+  // for docs
+  await writeFileAsync(
+    path.join(__dirname, 'docs', `components.json`),
+    JSON.stringify(allComponents.map(el => ({ ns: el.ns, name: 'Md' + el.name })), null, '  ')
+  );
   await copyPackage(PKG_FILE, path.resolve(DIST_PATH, 'package.json'))
 }
 

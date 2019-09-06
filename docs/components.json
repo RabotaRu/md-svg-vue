@@ -1,0 +1,3890 @@
+[
+  {
+    "ns": "action",
+    "name": "Md3dRotation"
+  },
+  {
+    "ns": "action",
+    "name": "MdAccessibility"
+  },
+  {
+    "ns": "action",
+    "name": "MdAccessible"
+  },
+  {
+    "ns": "action",
+    "name": "MdAccountBalance"
+  },
+  {
+    "ns": "action",
+    "name": "MdAccountBalanceWallet"
+  },
+  {
+    "ns": "action",
+    "name": "MdAccountBox"
+  },
+  {
+    "ns": "action",
+    "name": "MdAccountCircle"
+  },
+  {
+    "ns": "action",
+    "name": "MdAddShoppingCart"
+  },
+  {
+    "ns": "action",
+    "name": "MdAlarm"
+  },
+  {
+    "ns": "action",
+    "name": "MdAlarmAdd"
+  },
+  {
+    "ns": "action",
+    "name": "MdAlarmOff"
+  },
+  {
+    "ns": "action",
+    "name": "MdAlarmOn"
+  },
+  {
+    "ns": "action",
+    "name": "MdAllOut"
+  },
+  {
+    "ns": "action",
+    "name": "MdAndroid"
+  },
+  {
+    "ns": "action",
+    "name": "MdAnnouncement"
+  },
+  {
+    "ns": "action",
+    "name": "MdAspectRatio"
+  },
+  {
+    "ns": "action",
+    "name": "MdAssessment"
+  },
+  {
+    "ns": "action",
+    "name": "MdAssignment"
+  },
+  {
+    "ns": "action",
+    "name": "MdAssignmentInd"
+  },
+  {
+    "ns": "action",
+    "name": "MdAssignmentLate"
+  },
+  {
+    "ns": "action",
+    "name": "MdAssignmentReturn"
+  },
+  {
+    "ns": "action",
+    "name": "MdAssignmentReturned"
+  },
+  {
+    "ns": "action",
+    "name": "MdAssignmentTurnedIn"
+  },
+  {
+    "ns": "action",
+    "name": "MdAutorenew"
+  },
+  {
+    "ns": "action",
+    "name": "MdBackup"
+  },
+  {
+    "ns": "action",
+    "name": "MdBook"
+  },
+  {
+    "ns": "action",
+    "name": "MdBookmark"
+  },
+  {
+    "ns": "action",
+    "name": "MdBookmarkBorder"
+  },
+  {
+    "ns": "action",
+    "name": "MdBugReport"
+  },
+  {
+    "ns": "action",
+    "name": "MdBuild"
+  },
+  {
+    "ns": "action",
+    "name": "MdCached"
+  },
+  {
+    "ns": "action",
+    "name": "MdCameraEnhance"
+  },
+  {
+    "ns": "action",
+    "name": "MdCardGiftcard"
+  },
+  {
+    "ns": "action",
+    "name": "MdCardMembership"
+  },
+  {
+    "ns": "action",
+    "name": "MdCardTravel"
+  },
+  {
+    "ns": "action",
+    "name": "MdChangeHistory"
+  },
+  {
+    "ns": "action",
+    "name": "MdCheckCircle"
+  },
+  {
+    "ns": "action",
+    "name": "MdChromeReaderMode"
+  },
+  {
+    "ns": "action",
+    "name": "MdClass"
+  },
+  {
+    "ns": "action",
+    "name": "MdCode"
+  },
+  {
+    "ns": "action",
+    "name": "MdCompareArrows"
+  },
+  {
+    "ns": "action",
+    "name": "MdCopyright"
+  },
+  {
+    "ns": "action",
+    "name": "MdCreditCard"
+  },
+  {
+    "ns": "action",
+    "name": "MdDashboard"
+  },
+  {
+    "ns": "action",
+    "name": "MdDateRange"
+  },
+  {
+    "ns": "action",
+    "name": "MdDelete"
+  },
+  {
+    "ns": "action",
+    "name": "MdDeleteForever"
+  },
+  {
+    "ns": "action",
+    "name": "MdDescription"
+  },
+  {
+    "ns": "action",
+    "name": "MdDns"
+  },
+  {
+    "ns": "action",
+    "name": "MdDone"
+  },
+  {
+    "ns": "action",
+    "name": "MdDoneAll"
+  },
+  {
+    "ns": "action",
+    "name": "MdDonutLarge"
+  },
+  {
+    "ns": "action",
+    "name": "MdDonutSmall"
+  },
+  {
+    "ns": "action",
+    "name": "MdEject"
+  },
+  {
+    "ns": "action",
+    "name": "MdEuroSymbol"
+  },
+  {
+    "ns": "action",
+    "name": "MdEvent"
+  },
+  {
+    "ns": "action",
+    "name": "MdEventSeat"
+  },
+  {
+    "ns": "action",
+    "name": "MdExitToApp"
+  },
+  {
+    "ns": "action",
+    "name": "MdExplore"
+  },
+  {
+    "ns": "action",
+    "name": "MdExtension"
+  },
+  {
+    "ns": "action",
+    "name": "MdFace"
+  },
+  {
+    "ns": "action",
+    "name": "MdFavorite"
+  },
+  {
+    "ns": "action",
+    "name": "MdFavoriteBorder"
+  },
+  {
+    "ns": "action",
+    "name": "MdFeedback"
+  },
+  {
+    "ns": "action",
+    "name": "MdFindInPage"
+  },
+  {
+    "ns": "action",
+    "name": "MdFindReplace"
+  },
+  {
+    "ns": "action",
+    "name": "MdFingerprint"
+  },
+  {
+    "ns": "action",
+    "name": "MdFlightLand"
+  },
+  {
+    "ns": "action",
+    "name": "MdFlightTakeoff"
+  },
+  {
+    "ns": "action",
+    "name": "MdFlipToBack"
+  },
+  {
+    "ns": "action",
+    "name": "MdFlipToFront"
+  },
+  {
+    "ns": "action",
+    "name": "MdGTranslate"
+  },
+  {
+    "ns": "action",
+    "name": "MdGavel"
+  },
+  {
+    "ns": "action",
+    "name": "MdGetApp"
+  },
+  {
+    "ns": "action",
+    "name": "MdGif"
+  },
+  {
+    "ns": "action",
+    "name": "MdGrade"
+  },
+  {
+    "ns": "action",
+    "name": "MdGroupWork"
+  },
+  {
+    "ns": "action",
+    "name": "MdHelp"
+  },
+  {
+    "ns": "action",
+    "name": "MdHelpOutline"
+  },
+  {
+    "ns": "action",
+    "name": "MdHighlightOff"
+  },
+  {
+    "ns": "action",
+    "name": "MdHistory"
+  },
+  {
+    "ns": "action",
+    "name": "MdHome"
+  },
+  {
+    "ns": "action",
+    "name": "MdHourglassEmpty"
+  },
+  {
+    "ns": "action",
+    "name": "MdHourglassFull"
+  },
+  {
+    "ns": "action",
+    "name": "MdHttp"
+  },
+  {
+    "ns": "action",
+    "name": "MdHttps"
+  },
+  {
+    "ns": "action",
+    "name": "MdImportantDevices"
+  },
+  {
+    "ns": "action",
+    "name": "MdInfo"
+  },
+  {
+    "ns": "action",
+    "name": "MdInfoOutline"
+  },
+  {
+    "ns": "action",
+    "name": "MdInput"
+  },
+  {
+    "ns": "action",
+    "name": "MdInvertColors"
+  },
+  {
+    "ns": "action",
+    "name": "MdLabel"
+  },
+  {
+    "ns": "action",
+    "name": "MdLabelOutline"
+  },
+  {
+    "ns": "action",
+    "name": "MdLanguage"
+  },
+  {
+    "ns": "action",
+    "name": "MdLaunch"
+  },
+  {
+    "ns": "action",
+    "name": "MdLightbulbOutline"
+  },
+  {
+    "ns": "action",
+    "name": "MdLineStyle"
+  },
+  {
+    "ns": "action",
+    "name": "MdLineWeight"
+  },
+  {
+    "ns": "action",
+    "name": "MdList"
+  },
+  {
+    "ns": "action",
+    "name": "MdLock"
+  },
+  {
+    "ns": "action",
+    "name": "MdLockOpen"
+  },
+  {
+    "ns": "action",
+    "name": "MdLockOutline"
+  },
+  {
+    "ns": "action",
+    "name": "MdLoyalty"
+  },
+  {
+    "ns": "action",
+    "name": "MdMarkunreadMailbox"
+  },
+  {
+    "ns": "action",
+    "name": "MdMotorcycle"
+  },
+  {
+    "ns": "action",
+    "name": "MdNoteAdd"
+  },
+  {
+    "ns": "action",
+    "name": "MdOfflinePin"
+  },
+  {
+    "ns": "action",
+    "name": "MdOpacity"
+  },
+  {
+    "ns": "action",
+    "name": "MdOpenInBrowser"
+  },
+  {
+    "ns": "action",
+    "name": "MdOpenInNew"
+  },
+  {
+    "ns": "action",
+    "name": "MdOpenWith"
+  },
+  {
+    "ns": "action",
+    "name": "MdPageview"
+  },
+  {
+    "ns": "action",
+    "name": "MdPanTool"
+  },
+  {
+    "ns": "action",
+    "name": "MdPayment"
+  },
+  {
+    "ns": "action",
+    "name": "MdPermCameraMic"
+  },
+  {
+    "ns": "action",
+    "name": "MdPermContactCalendar"
+  },
+  {
+    "ns": "action",
+    "name": "MdPermDataSetting"
+  },
+  {
+    "ns": "action",
+    "name": "MdPermDeviceInformation"
+  },
+  {
+    "ns": "action",
+    "name": "MdPermIdentity"
+  },
+  {
+    "ns": "action",
+    "name": "MdPermMedia"
+  },
+  {
+    "ns": "action",
+    "name": "MdPermPhoneMsg"
+  },
+  {
+    "ns": "action",
+    "name": "MdPermScanWifi"
+  },
+  {
+    "ns": "action",
+    "name": "MdPets"
+  },
+  {
+    "ns": "action",
+    "name": "MdPictureInPicture"
+  },
+  {
+    "ns": "action",
+    "name": "MdPictureInPictureAlt"
+  },
+  {
+    "ns": "action",
+    "name": "MdPlayForWork"
+  },
+  {
+    "ns": "action",
+    "name": "MdPolymer"
+  },
+  {
+    "ns": "action",
+    "name": "MdPowerSettingsNew"
+  },
+  {
+    "ns": "action",
+    "name": "MdPregnantWoman"
+  },
+  {
+    "ns": "action",
+    "name": "MdPrint"
+  },
+  {
+    "ns": "action",
+    "name": "MdQueryBuilder"
+  },
+  {
+    "ns": "action",
+    "name": "MdQuestionAnswer"
+  },
+  {
+    "ns": "action",
+    "name": "MdReceipt"
+  },
+  {
+    "ns": "action",
+    "name": "MdRecordVoiceOver"
+  },
+  {
+    "ns": "action",
+    "name": "MdRedeem"
+  },
+  {
+    "ns": "action",
+    "name": "MdRemoveShoppingCart"
+  },
+  {
+    "ns": "action",
+    "name": "MdReorder"
+  },
+  {
+    "ns": "action",
+    "name": "MdReportProblem"
+  },
+  {
+    "ns": "action",
+    "name": "MdRestore"
+  },
+  {
+    "ns": "action",
+    "name": "MdRestorePage"
+  },
+  {
+    "ns": "action",
+    "name": "MdRoom"
+  },
+  {
+    "ns": "action",
+    "name": "MdRoundedCorner"
+  },
+  {
+    "ns": "action",
+    "name": "MdRowing"
+  },
+  {
+    "ns": "action",
+    "name": "MdSchedule"
+  },
+  {
+    "ns": "action",
+    "name": "MdSearch"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettings"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsApplications"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsBackupRestore"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsBluetooth"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsBrightness"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsCell"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsEthernet"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsInputAntenna"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsInputComponent"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsInputComposite"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsInputHdmi"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsInputSvideo"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsOverscan"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsPhone"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsPower"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsRemote"
+  },
+  {
+    "ns": "action",
+    "name": "MdSettingsVoice"
+  },
+  {
+    "ns": "action",
+    "name": "MdShop"
+  },
+  {
+    "ns": "action",
+    "name": "MdShopTwo"
+  },
+  {
+    "ns": "action",
+    "name": "MdShoppingBasket"
+  },
+  {
+    "ns": "action",
+    "name": "MdShoppingCart"
+  },
+  {
+    "ns": "action",
+    "name": "MdSpeakerNotes"
+  },
+  {
+    "ns": "action",
+    "name": "MdSpeakerNotesOff"
+  },
+  {
+    "ns": "action",
+    "name": "MdSpellcheck"
+  },
+  {
+    "ns": "action",
+    "name": "MdStars"
+  },
+  {
+    "ns": "action",
+    "name": "MdStore"
+  },
+  {
+    "ns": "action",
+    "name": "MdSubject"
+  },
+  {
+    "ns": "action",
+    "name": "MdSupervisorAccount"
+  },
+  {
+    "ns": "action",
+    "name": "MdSwapHoriz"
+  },
+  {
+    "ns": "action",
+    "name": "MdSwapVert"
+  },
+  {
+    "ns": "action",
+    "name": "MdSwapVerticalCircle"
+  },
+  {
+    "ns": "action",
+    "name": "MdSystemUpdateAlt"
+  },
+  {
+    "ns": "action",
+    "name": "MdTab"
+  },
+  {
+    "ns": "action",
+    "name": "MdTabUnselected"
+  },
+  {
+    "ns": "action",
+    "name": "MdTheaters"
+  },
+  {
+    "ns": "action",
+    "name": "MdThumbDown"
+  },
+  {
+    "ns": "action",
+    "name": "MdThumbUp"
+  },
+  {
+    "ns": "action",
+    "name": "MdThumbsUpDown"
+  },
+  {
+    "ns": "action",
+    "name": "MdTimeline"
+  },
+  {
+    "ns": "action",
+    "name": "MdToc"
+  },
+  {
+    "ns": "action",
+    "name": "MdToday"
+  },
+  {
+    "ns": "action",
+    "name": "MdToll"
+  },
+  {
+    "ns": "action",
+    "name": "MdTouchApp"
+  },
+  {
+    "ns": "action",
+    "name": "MdTrackChanges"
+  },
+  {
+    "ns": "action",
+    "name": "MdTranslate"
+  },
+  {
+    "ns": "action",
+    "name": "MdTrendingDown"
+  },
+  {
+    "ns": "action",
+    "name": "MdTrendingFlat"
+  },
+  {
+    "ns": "action",
+    "name": "MdTrendingUp"
+  },
+  {
+    "ns": "action",
+    "name": "MdTurnedIn"
+  },
+  {
+    "ns": "action",
+    "name": "MdTurnedInNot"
+  },
+  {
+    "ns": "action",
+    "name": "MdUpdate"
+  },
+  {
+    "ns": "action",
+    "name": "MdVerifiedUser"
+  },
+  {
+    "ns": "action",
+    "name": "MdViewAgenda"
+  },
+  {
+    "ns": "action",
+    "name": "MdViewArray"
+  },
+  {
+    "ns": "action",
+    "name": "MdViewCarousel"
+  },
+  {
+    "ns": "action",
+    "name": "MdViewColumn"
+  },
+  {
+    "ns": "action",
+    "name": "MdViewDay"
+  },
+  {
+    "ns": "action",
+    "name": "MdViewHeadline"
+  },
+  {
+    "ns": "action",
+    "name": "MdViewList"
+  },
+  {
+    "ns": "action",
+    "name": "MdViewModule"
+  },
+  {
+    "ns": "action",
+    "name": "MdViewQuilt"
+  },
+  {
+    "ns": "action",
+    "name": "MdViewStream"
+  },
+  {
+    "ns": "action",
+    "name": "MdViewWeek"
+  },
+  {
+    "ns": "action",
+    "name": "MdVisibility"
+  },
+  {
+    "ns": "action",
+    "name": "MdVisibilityOff"
+  },
+  {
+    "ns": "action",
+    "name": "MdWatchLater"
+  },
+  {
+    "ns": "action",
+    "name": "MdWork"
+  },
+  {
+    "ns": "action",
+    "name": "MdYoutubeSearchedFor"
+  },
+  {
+    "ns": "action",
+    "name": "MdZoomIn"
+  },
+  {
+    "ns": "action",
+    "name": "MdZoomOut"
+  },
+  {
+    "ns": "alert",
+    "name": "MdAddAlert"
+  },
+  {
+    "ns": "alert",
+    "name": "MdError"
+  },
+  {
+    "ns": "alert",
+    "name": "MdErrorOutline"
+  },
+  {
+    "ns": "alert",
+    "name": "MdWarning"
+  },
+  {
+    "ns": "av",
+    "name": "MdAddToQueue"
+  },
+  {
+    "ns": "av",
+    "name": "MdAirplay"
+  },
+  {
+    "ns": "av",
+    "name": "MdAlbum"
+  },
+  {
+    "ns": "av",
+    "name": "MdArtTrack"
+  },
+  {
+    "ns": "av",
+    "name": "MdAvTimer"
+  },
+  {
+    "ns": "av",
+    "name": "MdBrandingWatermark"
+  },
+  {
+    "ns": "av",
+    "name": "MdCallToAction"
+  },
+  {
+    "ns": "av",
+    "name": "MdClosedCaption"
+  },
+  {
+    "ns": "av",
+    "name": "MdEqualizer"
+  },
+  {
+    "ns": "av",
+    "name": "MdExplicit"
+  },
+  {
+    "ns": "av",
+    "name": "MdFastForward"
+  },
+  {
+    "ns": "av",
+    "name": "MdFastRewind"
+  },
+  {
+    "ns": "av",
+    "name": "MdFeaturedPlayList"
+  },
+  {
+    "ns": "av",
+    "name": "MdFeaturedVideo"
+  },
+  {
+    "ns": "av",
+    "name": "MdFiberDvr"
+  },
+  {
+    "ns": "av",
+    "name": "MdFiberManualRecord"
+  },
+  {
+    "ns": "av",
+    "name": "MdFiberNew"
+  },
+  {
+    "ns": "av",
+    "name": "MdFiberPin"
+  },
+  {
+    "ns": "av",
+    "name": "MdFiberSmartRecord"
+  },
+  {
+    "ns": "av",
+    "name": "MdForward10"
+  },
+  {
+    "ns": "av",
+    "name": "MdForward30"
+  },
+  {
+    "ns": "av",
+    "name": "MdForward5"
+  },
+  {
+    "ns": "av",
+    "name": "MdGames"
+  },
+  {
+    "ns": "av",
+    "name": "MdHd"
+  },
+  {
+    "ns": "av",
+    "name": "MdHearing"
+  },
+  {
+    "ns": "av",
+    "name": "MdHighQuality"
+  },
+  {
+    "ns": "av",
+    "name": "MdLibraryAdd"
+  },
+  {
+    "ns": "av",
+    "name": "MdLibraryBooks"
+  },
+  {
+    "ns": "av",
+    "name": "MdLibraryMusic"
+  },
+  {
+    "ns": "av",
+    "name": "MdLoop"
+  },
+  {
+    "ns": "av",
+    "name": "MdMic"
+  },
+  {
+    "ns": "av",
+    "name": "MdMicNone"
+  },
+  {
+    "ns": "av",
+    "name": "MdMicOff"
+  },
+  {
+    "ns": "av",
+    "name": "MdMovie"
+  },
+  {
+    "ns": "av",
+    "name": "MdMusicVideo"
+  },
+  {
+    "ns": "av",
+    "name": "MdNewReleases"
+  },
+  {
+    "ns": "av",
+    "name": "MdNotInterested"
+  },
+  {
+    "ns": "av",
+    "name": "MdNote"
+  },
+  {
+    "ns": "av",
+    "name": "MdPause"
+  },
+  {
+    "ns": "av",
+    "name": "MdPauseCircleFilled"
+  },
+  {
+    "ns": "av",
+    "name": "MdPauseCircleOutline"
+  },
+  {
+    "ns": "av",
+    "name": "MdPlayArrow"
+  },
+  {
+    "ns": "av",
+    "name": "MdPlayCircleFilled"
+  },
+  {
+    "ns": "av",
+    "name": "MdPlayCircleOutline"
+  },
+  {
+    "ns": "av",
+    "name": "MdPlaylistAdd"
+  },
+  {
+    "ns": "av",
+    "name": "MdPlaylistAddCheck"
+  },
+  {
+    "ns": "av",
+    "name": "MdPlaylistPlay"
+  },
+  {
+    "ns": "av",
+    "name": "MdQueue"
+  },
+  {
+    "ns": "av",
+    "name": "MdQueueMusic"
+  },
+  {
+    "ns": "av",
+    "name": "MdQueuePlayNext"
+  },
+  {
+    "ns": "av",
+    "name": "MdRadio"
+  },
+  {
+    "ns": "av",
+    "name": "MdRecentActors"
+  },
+  {
+    "ns": "av",
+    "name": "MdRemoveFromQueue"
+  },
+  {
+    "ns": "av",
+    "name": "MdRepeat"
+  },
+  {
+    "ns": "av",
+    "name": "MdRepeatOne"
+  },
+  {
+    "ns": "av",
+    "name": "MdReplay10"
+  },
+  {
+    "ns": "av",
+    "name": "MdReplay"
+  },
+  {
+    "ns": "av",
+    "name": "MdReplay30"
+  },
+  {
+    "ns": "av",
+    "name": "MdReplay5"
+  },
+  {
+    "ns": "av",
+    "name": "MdShuffle"
+  },
+  {
+    "ns": "av",
+    "name": "MdSkipNext"
+  },
+  {
+    "ns": "av",
+    "name": "MdSkipPrevious"
+  },
+  {
+    "ns": "av",
+    "name": "MdSlowMotionVideo"
+  },
+  {
+    "ns": "av",
+    "name": "MdSnooze"
+  },
+  {
+    "ns": "av",
+    "name": "MdSortByAlpha"
+  },
+  {
+    "ns": "av",
+    "name": "MdStop"
+  },
+  {
+    "ns": "av",
+    "name": "MdSubscriptions"
+  },
+  {
+    "ns": "av",
+    "name": "MdSubtitles"
+  },
+  {
+    "ns": "av",
+    "name": "MdSurroundSound"
+  },
+  {
+    "ns": "av",
+    "name": "MdVideoCall"
+  },
+  {
+    "ns": "av",
+    "name": "MdVideoLabel"
+  },
+  {
+    "ns": "av",
+    "name": "MdVideoLibrary"
+  },
+  {
+    "ns": "av",
+    "name": "MdVideocam"
+  },
+  {
+    "ns": "av",
+    "name": "MdVideocamOff"
+  },
+  {
+    "ns": "av",
+    "name": "MdVolumeDown"
+  },
+  {
+    "ns": "av",
+    "name": "MdVolumeMute"
+  },
+  {
+    "ns": "av",
+    "name": "MdVolumeOff"
+  },
+  {
+    "ns": "av",
+    "name": "MdVolumeUp"
+  },
+  {
+    "ns": "av",
+    "name": "MdWeb"
+  },
+  {
+    "ns": "av",
+    "name": "MdWebAsset"
+  },
+  {
+    "ns": "communication",
+    "name": "MdBusiness"
+  },
+  {
+    "ns": "communication",
+    "name": "MdCall"
+  },
+  {
+    "ns": "communication",
+    "name": "MdCallEnd"
+  },
+  {
+    "ns": "communication",
+    "name": "MdCallMade"
+  },
+  {
+    "ns": "communication",
+    "name": "MdCallMerge"
+  },
+  {
+    "ns": "communication",
+    "name": "MdCallMissed"
+  },
+  {
+    "ns": "communication",
+    "name": "MdCallMissedOutgoing"
+  },
+  {
+    "ns": "communication",
+    "name": "MdCallReceived"
+  },
+  {
+    "ns": "communication",
+    "name": "MdCallSplit"
+  },
+  {
+    "ns": "communication",
+    "name": "MdChat"
+  },
+  {
+    "ns": "communication",
+    "name": "MdChatBubble"
+  },
+  {
+    "ns": "communication",
+    "name": "MdChatBubbleOutline"
+  },
+  {
+    "ns": "communication",
+    "name": "MdClearAll"
+  },
+  {
+    "ns": "communication",
+    "name": "MdComment"
+  },
+  {
+    "ns": "communication",
+    "name": "MdContactMail"
+  },
+  {
+    "ns": "communication",
+    "name": "MdContactPhone"
+  },
+  {
+    "ns": "communication",
+    "name": "MdContacts"
+  },
+  {
+    "ns": "communication",
+    "name": "MdDialerSip"
+  },
+  {
+    "ns": "communication",
+    "name": "MdDialpad"
+  },
+  {
+    "ns": "communication",
+    "name": "MdEmail"
+  },
+  {
+    "ns": "communication",
+    "name": "MdForum"
+  },
+  {
+    "ns": "communication",
+    "name": "MdImportContacts"
+  },
+  {
+    "ns": "communication",
+    "name": "MdImportExport"
+  },
+  {
+    "ns": "communication",
+    "name": "MdInvertColorsOff"
+  },
+  {
+    "ns": "communication",
+    "name": "MdLiveHelp"
+  },
+  {
+    "ns": "communication",
+    "name": "MdLocationOff"
+  },
+  {
+    "ns": "communication",
+    "name": "MdLocationOn"
+  },
+  {
+    "ns": "communication",
+    "name": "MdMailOutline"
+  },
+  {
+    "ns": "communication",
+    "name": "MdMessage"
+  },
+  {
+    "ns": "communication",
+    "name": "MdNoSim"
+  },
+  {
+    "ns": "communication",
+    "name": "MdPhone"
+  },
+  {
+    "ns": "communication",
+    "name": "MdPhonelinkErase"
+  },
+  {
+    "ns": "communication",
+    "name": "MdPhonelinkLock"
+  },
+  {
+    "ns": "communication",
+    "name": "MdPhonelinkRing"
+  },
+  {
+    "ns": "communication",
+    "name": "MdPhonelinkSetup"
+  },
+  {
+    "ns": "communication",
+    "name": "MdPortableWifiOff"
+  },
+  {
+    "ns": "communication",
+    "name": "MdPresentToAll"
+  },
+  {
+    "ns": "communication",
+    "name": "MdRingVolume"
+  },
+  {
+    "ns": "communication",
+    "name": "MdRssFeed"
+  },
+  {
+    "ns": "communication",
+    "name": "MdScreenShare"
+  },
+  {
+    "ns": "communication",
+    "name": "MdSpeakerPhone"
+  },
+  {
+    "ns": "communication",
+    "name": "MdStayCurrentLandscape"
+  },
+  {
+    "ns": "communication",
+    "name": "MdStayCurrentPortrait"
+  },
+  {
+    "ns": "communication",
+    "name": "MdStayPrimaryLandscape"
+  },
+  {
+    "ns": "communication",
+    "name": "MdStayPrimaryPortrait"
+  },
+  {
+    "ns": "communication",
+    "name": "MdStopScreenShare"
+  },
+  {
+    "ns": "communication",
+    "name": "MdSwapCalls"
+  },
+  {
+    "ns": "communication",
+    "name": "MdTextsms"
+  },
+  {
+    "ns": "communication",
+    "name": "MdVoicemail"
+  },
+  {
+    "ns": "communication",
+    "name": "MdVpnKey"
+  },
+  {
+    "ns": "content",
+    "name": "MdAdd"
+  },
+  {
+    "ns": "content",
+    "name": "MdAddBox"
+  },
+  {
+    "ns": "content",
+    "name": "MdAddCircle"
+  },
+  {
+    "ns": "content",
+    "name": "MdAddCircleOutline"
+  },
+  {
+    "ns": "content",
+    "name": "MdArchive"
+  },
+  {
+    "ns": "content",
+    "name": "MdBackspace"
+  },
+  {
+    "ns": "content",
+    "name": "MdBlock"
+  },
+  {
+    "ns": "content",
+    "name": "MdClear"
+  },
+  {
+    "ns": "content",
+    "name": "MdContentCopy"
+  },
+  {
+    "ns": "content",
+    "name": "MdContentCut"
+  },
+  {
+    "ns": "content",
+    "name": "MdContentPaste"
+  },
+  {
+    "ns": "content",
+    "name": "MdCreate"
+  },
+  {
+    "ns": "content",
+    "name": "MdDeleteSweep"
+  },
+  {
+    "ns": "content",
+    "name": "MdDrafts"
+  },
+  {
+    "ns": "content",
+    "name": "MdFilterList"
+  },
+  {
+    "ns": "content",
+    "name": "MdFlag"
+  },
+  {
+    "ns": "content",
+    "name": "MdFontDownload"
+  },
+  {
+    "ns": "content",
+    "name": "MdForward"
+  },
+  {
+    "ns": "content",
+    "name": "MdGesture"
+  },
+  {
+    "ns": "content",
+    "name": "MdInbox"
+  },
+  {
+    "ns": "content",
+    "name": "MdLink"
+  },
+  {
+    "ns": "content",
+    "name": "MdLowPriority"
+  },
+  {
+    "ns": "content",
+    "name": "MdMail"
+  },
+  {
+    "ns": "content",
+    "name": "MdMarkunread"
+  },
+  {
+    "ns": "content",
+    "name": "MdMoveToInbox"
+  },
+  {
+    "ns": "content",
+    "name": "MdNextWeek"
+  },
+  {
+    "ns": "content",
+    "name": "MdRedo"
+  },
+  {
+    "ns": "content",
+    "name": "MdRemove"
+  },
+  {
+    "ns": "content",
+    "name": "MdRemoveCircle"
+  },
+  {
+    "ns": "content",
+    "name": "MdRemoveCircleOutline"
+  },
+  {
+    "ns": "content",
+    "name": "MdReply"
+  },
+  {
+    "ns": "content",
+    "name": "MdReplyAll"
+  },
+  {
+    "ns": "content",
+    "name": "MdReport"
+  },
+  {
+    "ns": "content",
+    "name": "MdSave"
+  },
+  {
+    "ns": "content",
+    "name": "MdSelectAll"
+  },
+  {
+    "ns": "content",
+    "name": "MdSend"
+  },
+  {
+    "ns": "content",
+    "name": "MdSort"
+  },
+  {
+    "ns": "content",
+    "name": "MdTextFormat"
+  },
+  {
+    "ns": "content",
+    "name": "MdUnarchive"
+  },
+  {
+    "ns": "content",
+    "name": "MdUndo"
+  },
+  {
+    "ns": "content",
+    "name": "MdWeekend"
+  },
+  {
+    "ns": "device",
+    "name": "MdAccessAlarm"
+  },
+  {
+    "ns": "device",
+    "name": "MdAccessAlarms"
+  },
+  {
+    "ns": "device",
+    "name": "MdAccessTime"
+  },
+  {
+    "ns": "device",
+    "name": "MdAddAlarm"
+  },
+  {
+    "ns": "device",
+    "name": "MdAirplanemodeActive"
+  },
+  {
+    "ns": "device",
+    "name": "MdAirplanemodeInactive"
+  },
+  {
+    "ns": "device",
+    "name": "MdBattery20"
+  },
+  {
+    "ns": "device",
+    "name": "MdBattery30"
+  },
+  {
+    "ns": "device",
+    "name": "MdBattery50"
+  },
+  {
+    "ns": "device",
+    "name": "MdBattery60"
+  },
+  {
+    "ns": "device",
+    "name": "MdBattery80"
+  },
+  {
+    "ns": "device",
+    "name": "MdBattery90"
+  },
+  {
+    "ns": "device",
+    "name": "MdBatteryAlert"
+  },
+  {
+    "ns": "device",
+    "name": "MdBatteryCharging20"
+  },
+  {
+    "ns": "device",
+    "name": "MdBatteryCharging30"
+  },
+  {
+    "ns": "device",
+    "name": "MdBatteryCharging50"
+  },
+  {
+    "ns": "device",
+    "name": "MdBatteryCharging60"
+  },
+  {
+    "ns": "device",
+    "name": "MdBatteryCharging80"
+  },
+  {
+    "ns": "device",
+    "name": "MdBatteryCharging90"
+  },
+  {
+    "ns": "device",
+    "name": "MdBatteryChargingFull"
+  },
+  {
+    "ns": "device",
+    "name": "MdBatteryFull"
+  },
+  {
+    "ns": "device",
+    "name": "MdBatteryStd"
+  },
+  {
+    "ns": "device",
+    "name": "MdBatteryUnknown"
+  },
+  {
+    "ns": "device",
+    "name": "MdBluetooth"
+  },
+  {
+    "ns": "device",
+    "name": "MdBluetoothConnected"
+  },
+  {
+    "ns": "device",
+    "name": "MdBluetoothDisabled"
+  },
+  {
+    "ns": "device",
+    "name": "MdBluetoothSearching"
+  },
+  {
+    "ns": "device",
+    "name": "MdBrightnessAuto"
+  },
+  {
+    "ns": "device",
+    "name": "MdBrightnessHigh"
+  },
+  {
+    "ns": "device",
+    "name": "MdBrightnessLow"
+  },
+  {
+    "ns": "device",
+    "name": "MdBrightnessMedium"
+  },
+  {
+    "ns": "device",
+    "name": "MdDataUsage"
+  },
+  {
+    "ns": "device",
+    "name": "MdDeveloperMode"
+  },
+  {
+    "ns": "device",
+    "name": "MdDevices"
+  },
+  {
+    "ns": "device",
+    "name": "MdDvr"
+  },
+  {
+    "ns": "device",
+    "name": "MdGpsFixed"
+  },
+  {
+    "ns": "device",
+    "name": "MdGpsNotFixed"
+  },
+  {
+    "ns": "device",
+    "name": "MdGpsOff"
+  },
+  {
+    "ns": "device",
+    "name": "MdGraphicEq"
+  },
+  {
+    "ns": "device",
+    "name": "MdLocationDisabled"
+  },
+  {
+    "ns": "device",
+    "name": "MdLocationSearching"
+  },
+  {
+    "ns": "device",
+    "name": "MdNetworkCell"
+  },
+  {
+    "ns": "device",
+    "name": "MdNetworkWifi"
+  },
+  {
+    "ns": "device",
+    "name": "MdNfc"
+  },
+  {
+    "ns": "device",
+    "name": "MdScreenLockLandscape"
+  },
+  {
+    "ns": "device",
+    "name": "MdScreenLockPortrait"
+  },
+  {
+    "ns": "device",
+    "name": "MdScreenLockRotation"
+  },
+  {
+    "ns": "device",
+    "name": "MdScreenRotation"
+  },
+  {
+    "ns": "device",
+    "name": "MdSdStorage"
+  },
+  {
+    "ns": "device",
+    "name": "MdSettingsSystemDaydream"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalCellular0Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalCellular1Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalCellular2Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalCellular3Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalCellular4Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalCellularConnectedNoInternet0Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalCellularConnectedNoInternet1Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalCellularConnectedNoInternet2Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalCellularConnectedNoInternet3Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalCellularConnectedNoInternet4Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalCellularNoSim"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalCellularNull"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalCellularOff"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifi0Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifi1Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifi1BarLock"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifi2Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifi2BarLock"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifi3Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifi3BarLock"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifi4Bar"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifi4BarLock"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifiOff"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifiStatusbar1Bar26x"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifiStatusbar2Bar26x"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifiStatusbar3Bar26x"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifiStatusbar4Bar26x"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifiStatusbarConnectedNoInternet126x"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifiStatusbarConnectedNoInternet26x"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifiStatusbarConnectedNoInternet226x"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifiStatusbarConnectedNoInternet326x"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifiStatusbarConnectedNoInternet426x"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifiStatusbarNotConnected26x"
+  },
+  {
+    "ns": "device",
+    "name": "MdSignalWifiStatusbarNull26x"
+  },
+  {
+    "ns": "device",
+    "name": "MdStorage"
+  },
+  {
+    "ns": "device",
+    "name": "MdUsb"
+  },
+  {
+    "ns": "device",
+    "name": "MdWallpaper"
+  },
+  {
+    "ns": "device",
+    "name": "MdWidgets"
+  },
+  {
+    "ns": "device",
+    "name": "MdWifiLock"
+  },
+  {
+    "ns": "device",
+    "name": "MdWifiTethering"
+  },
+  {
+    "ns": "editor",
+    "name": "MdAttachFile"
+  },
+  {
+    "ns": "editor",
+    "name": "MdAttachMoney"
+  },
+  {
+    "ns": "editor",
+    "name": "MdBorderAll"
+  },
+  {
+    "ns": "editor",
+    "name": "MdBorderBottom"
+  },
+  {
+    "ns": "editor",
+    "name": "MdBorderClear"
+  },
+  {
+    "ns": "editor",
+    "name": "MdBorderColor"
+  },
+  {
+    "ns": "editor",
+    "name": "MdBorderHorizontal"
+  },
+  {
+    "ns": "editor",
+    "name": "MdBorderInner"
+  },
+  {
+    "ns": "editor",
+    "name": "MdBorderLeft"
+  },
+  {
+    "ns": "editor",
+    "name": "MdBorderOuter"
+  },
+  {
+    "ns": "editor",
+    "name": "MdBorderRight"
+  },
+  {
+    "ns": "editor",
+    "name": "MdBorderStyle"
+  },
+  {
+    "ns": "editor",
+    "name": "MdBorderTop"
+  },
+  {
+    "ns": "editor",
+    "name": "MdBorderVertical"
+  },
+  {
+    "ns": "editor",
+    "name": "MdBubbleChart"
+  },
+  {
+    "ns": "editor",
+    "name": "MdDragHandle"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatAlignCenter"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatAlignJustify"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatAlignLeft"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatAlignRight"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatBold"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatClear"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatColorFill"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatColorReset"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatColorText"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatIndentDecrease"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatIndentIncrease"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatItalic"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatLineSpacing"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatListBulleted"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatListNumbered"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatPaint"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatQuote"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatShapes"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatSize"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatStrikethrough"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatTextdirectionLToR"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatTextdirectionRToL"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFormatUnderlined"
+  },
+  {
+    "ns": "editor",
+    "name": "MdFunctions"
+  },
+  {
+    "ns": "editor",
+    "name": "MdHighlight"
+  },
+  {
+    "ns": "editor",
+    "name": "MdInsertChart"
+  },
+  {
+    "ns": "editor",
+    "name": "MdInsertComment"
+  },
+  {
+    "ns": "editor",
+    "name": "MdInsertDriveFile"
+  },
+  {
+    "ns": "editor",
+    "name": "MdInsertEmoticon"
+  },
+  {
+    "ns": "editor",
+    "name": "MdInsertInvitation"
+  },
+  {
+    "ns": "editor",
+    "name": "MdInsertLink"
+  },
+  {
+    "ns": "editor",
+    "name": "MdInsertPhoto"
+  },
+  {
+    "ns": "editor",
+    "name": "MdLinearScale"
+  },
+  {
+    "ns": "editor",
+    "name": "MdMergeType"
+  },
+  {
+    "ns": "editor",
+    "name": "MdModeComment"
+  },
+  {
+    "ns": "editor",
+    "name": "MdModeEdit"
+  },
+  {
+    "ns": "editor",
+    "name": "MdMonetizationOn"
+  },
+  {
+    "ns": "editor",
+    "name": "MdMoneyOff"
+  },
+  {
+    "ns": "editor",
+    "name": "MdMultilineChart"
+  },
+  {
+    "ns": "editor",
+    "name": "MdPieChart"
+  },
+  {
+    "ns": "editor",
+    "name": "MdPieChartOutlined"
+  },
+  {
+    "ns": "editor",
+    "name": "MdPublish"
+  },
+  {
+    "ns": "editor",
+    "name": "MdShortText"
+  },
+  {
+    "ns": "editor",
+    "name": "MdShowChart"
+  },
+  {
+    "ns": "editor",
+    "name": "MdSpaceBar"
+  },
+  {
+    "ns": "editor",
+    "name": "MdStrikethroughS"
+  },
+  {
+    "ns": "editor",
+    "name": "MdTextFields"
+  },
+  {
+    "ns": "editor",
+    "name": "MdTitle"
+  },
+  {
+    "ns": "editor",
+    "name": "MdVerticalAlignBottom"
+  },
+  {
+    "ns": "editor",
+    "name": "MdVerticalAlignCenter"
+  },
+  {
+    "ns": "editor",
+    "name": "MdVerticalAlignTop"
+  },
+  {
+    "ns": "editor",
+    "name": "MdWrapText"
+  },
+  {
+    "ns": "file",
+    "name": "MdAttachment"
+  },
+  {
+    "ns": "file",
+    "name": "MdCloud"
+  },
+  {
+    "ns": "file",
+    "name": "MdCloudCircle"
+  },
+  {
+    "ns": "file",
+    "name": "MdCloudDone"
+  },
+  {
+    "ns": "file",
+    "name": "MdCloudDownload"
+  },
+  {
+    "ns": "file",
+    "name": "MdCloudOff"
+  },
+  {
+    "ns": "file",
+    "name": "MdCloudQueue"
+  },
+  {
+    "ns": "file",
+    "name": "MdCloudUpload"
+  },
+  {
+    "ns": "file",
+    "name": "MdCreateNewFolder"
+  },
+  {
+    "ns": "file",
+    "name": "MdFileDownload"
+  },
+  {
+    "ns": "file",
+    "name": "MdFileUpload"
+  },
+  {
+    "ns": "file",
+    "name": "MdFolder"
+  },
+  {
+    "ns": "file",
+    "name": "MdFolderOpen"
+  },
+  {
+    "ns": "file",
+    "name": "MdFolderShared"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdCast"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdCastConnected"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdComputer"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdDesktopMac"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdDesktopWindows"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdDeveloperBoard"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdDeviceHub"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdDevicesOther"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdDock"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdGamepad"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdHeadset"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdHeadsetMic"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdKeyboard"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdKeyboardArrowDown"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdKeyboardArrowLeft"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdKeyboardArrowRight"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdKeyboardArrowUp"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdKeyboardBackspace"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdKeyboardCapslock"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdKeyboardHide"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdKeyboardReturn"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdKeyboardTab"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdKeyboardVoice"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdLaptop"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdLaptopChromebook"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdLaptopMac"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdLaptopWindows"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdMemory"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdMouse"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdPhoneAndroid"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdPhoneIphone"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdPhonelink"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdPhonelinkOff"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdPowerInput"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdRouter"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdScanner"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdSecurity"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdSimCard"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdSmartphone"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdSpeaker"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdSpeakerGroup"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdTablet"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdTabletAndroid"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdTabletMac"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdToys"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdTv"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdVideogameAsset"
+  },
+  {
+    "ns": "hardware",
+    "name": "MdWatch"
+  },
+  {
+    "ns": "image",
+    "name": "MdAddAPhoto"
+  },
+  {
+    "ns": "image",
+    "name": "MdAddToPhotos"
+  },
+  {
+    "ns": "image",
+    "name": "MdAdjust"
+  },
+  {
+    "ns": "image",
+    "name": "MdAssistant"
+  },
+  {
+    "ns": "image",
+    "name": "MdAssistantPhoto"
+  },
+  {
+    "ns": "image",
+    "name": "MdAudiotrack"
+  },
+  {
+    "ns": "image",
+    "name": "MdBlurCircular"
+  },
+  {
+    "ns": "image",
+    "name": "MdBlurLinear"
+  },
+  {
+    "ns": "image",
+    "name": "MdBlurOff"
+  },
+  {
+    "ns": "image",
+    "name": "MdBlurOn"
+  },
+  {
+    "ns": "image",
+    "name": "MdBrightness1"
+  },
+  {
+    "ns": "image",
+    "name": "MdBrightness2"
+  },
+  {
+    "ns": "image",
+    "name": "MdBrightness3"
+  },
+  {
+    "ns": "image",
+    "name": "MdBrightness4"
+  },
+  {
+    "ns": "image",
+    "name": "MdBrightness5"
+  },
+  {
+    "ns": "image",
+    "name": "MdBrightness6"
+  },
+  {
+    "ns": "image",
+    "name": "MdBrightness7"
+  },
+  {
+    "ns": "image",
+    "name": "MdBrokenImage"
+  },
+  {
+    "ns": "image",
+    "name": "MdBrush"
+  },
+  {
+    "ns": "image",
+    "name": "MdBurstMode"
+  },
+  {
+    "ns": "image",
+    "name": "MdCamera"
+  },
+  {
+    "ns": "image",
+    "name": "MdCameraAlt"
+  },
+  {
+    "ns": "image",
+    "name": "MdCameraFront"
+  },
+  {
+    "ns": "image",
+    "name": "MdCameraRear"
+  },
+  {
+    "ns": "image",
+    "name": "MdCameraRoll"
+  },
+  {
+    "ns": "image",
+    "name": "MdCenterFocusStrong"
+  },
+  {
+    "ns": "image",
+    "name": "MdCenterFocusWeak"
+  },
+  {
+    "ns": "image",
+    "name": "MdCollections"
+  },
+  {
+    "ns": "image",
+    "name": "MdCollectionsBookmark"
+  },
+  {
+    "ns": "image",
+    "name": "MdColorLens"
+  },
+  {
+    "ns": "image",
+    "name": "MdColorize"
+  },
+  {
+    "ns": "image",
+    "name": "MdCompare"
+  },
+  {
+    "ns": "image",
+    "name": "MdControlPoint"
+  },
+  {
+    "ns": "image",
+    "name": "MdControlPointDuplicate"
+  },
+  {
+    "ns": "image",
+    "name": "MdCrop169"
+  },
+  {
+    "ns": "image",
+    "name": "MdCrop"
+  },
+  {
+    "ns": "image",
+    "name": "MdCrop32"
+  },
+  {
+    "ns": "image",
+    "name": "MdCrop54"
+  },
+  {
+    "ns": "image",
+    "name": "MdCrop75"
+  },
+  {
+    "ns": "image",
+    "name": "MdCropDin"
+  },
+  {
+    "ns": "image",
+    "name": "MdCropFree"
+  },
+  {
+    "ns": "image",
+    "name": "MdCropLandscape"
+  },
+  {
+    "ns": "image",
+    "name": "MdCropOriginal"
+  },
+  {
+    "ns": "image",
+    "name": "MdCropPortrait"
+  },
+  {
+    "ns": "image",
+    "name": "MdCropRotate"
+  },
+  {
+    "ns": "image",
+    "name": "MdCropSquare"
+  },
+  {
+    "ns": "image",
+    "name": "MdDehaze"
+  },
+  {
+    "ns": "image",
+    "name": "MdDetails"
+  },
+  {
+    "ns": "image",
+    "name": "MdEdit"
+  },
+  {
+    "ns": "image",
+    "name": "MdExposure"
+  },
+  {
+    "ns": "image",
+    "name": "MdExposureNeg1"
+  },
+  {
+    "ns": "image",
+    "name": "MdExposureNeg2"
+  },
+  {
+    "ns": "image",
+    "name": "MdExposurePlus1"
+  },
+  {
+    "ns": "image",
+    "name": "MdExposurePlus2"
+  },
+  {
+    "ns": "image",
+    "name": "MdExposureZero"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilter1"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilter"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilter2"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilter3"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilter4"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilter5"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilter6"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilter7"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilter8"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilter9"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilter9Plus"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilterBAndW"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilterCenterFocus"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilterDrama"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilterFrames"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilterHdr"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilterNone"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilterTiltShift"
+  },
+  {
+    "ns": "image",
+    "name": "MdFilterVintage"
+  },
+  {
+    "ns": "image",
+    "name": "MdFlare"
+  },
+  {
+    "ns": "image",
+    "name": "MdFlashAuto"
+  },
+  {
+    "ns": "image",
+    "name": "MdFlashOff"
+  },
+  {
+    "ns": "image",
+    "name": "MdFlashOn"
+  },
+  {
+    "ns": "image",
+    "name": "MdFlip"
+  },
+  {
+    "ns": "image",
+    "name": "MdGradient"
+  },
+  {
+    "ns": "image",
+    "name": "MdGrain"
+  },
+  {
+    "ns": "image",
+    "name": "MdGridOff"
+  },
+  {
+    "ns": "image",
+    "name": "MdGridOn"
+  },
+  {
+    "ns": "image",
+    "name": "MdHdrOff"
+  },
+  {
+    "ns": "image",
+    "name": "MdHdrOn"
+  },
+  {
+    "ns": "image",
+    "name": "MdHdrStrong"
+  },
+  {
+    "ns": "image",
+    "name": "MdHdrWeak"
+  },
+  {
+    "ns": "image",
+    "name": "MdHealing"
+  },
+  {
+    "ns": "image",
+    "name": "MdImage"
+  },
+  {
+    "ns": "image",
+    "name": "MdImageAspectRatio"
+  },
+  {
+    "ns": "image",
+    "name": "MdIso"
+  },
+  {
+    "ns": "image",
+    "name": "MdLandscape"
+  },
+  {
+    "ns": "image",
+    "name": "MdLeakAdd"
+  },
+  {
+    "ns": "image",
+    "name": "MdLeakRemove"
+  },
+  {
+    "ns": "image",
+    "name": "MdLens"
+  },
+  {
+    "ns": "image",
+    "name": "MdLinkedCamera"
+  },
+  {
+    "ns": "image",
+    "name": "MdLooks"
+  },
+  {
+    "ns": "image",
+    "name": "MdLooks3"
+  },
+  {
+    "ns": "image",
+    "name": "MdLooks4"
+  },
+  {
+    "ns": "image",
+    "name": "MdLooks5"
+  },
+  {
+    "ns": "image",
+    "name": "MdLooks6"
+  },
+  {
+    "ns": "image",
+    "name": "MdLooksOne"
+  },
+  {
+    "ns": "image",
+    "name": "MdLooksTwo"
+  },
+  {
+    "ns": "image",
+    "name": "MdLoupe"
+  },
+  {
+    "ns": "image",
+    "name": "MdMonochromePhotos"
+  },
+  {
+    "ns": "image",
+    "name": "MdMovieCreation"
+  },
+  {
+    "ns": "image",
+    "name": "MdMovieFilter"
+  },
+  {
+    "ns": "image",
+    "name": "MdMusicNote"
+  },
+  {
+    "ns": "image",
+    "name": "MdNature"
+  },
+  {
+    "ns": "image",
+    "name": "MdNaturePeople"
+  },
+  {
+    "ns": "image",
+    "name": "MdNavigateBefore"
+  },
+  {
+    "ns": "image",
+    "name": "MdNavigateNext"
+  },
+  {
+    "ns": "image",
+    "name": "MdPalette"
+  },
+  {
+    "ns": "image",
+    "name": "MdPanorama"
+  },
+  {
+    "ns": "image",
+    "name": "MdPanoramaFishEye"
+  },
+  {
+    "ns": "image",
+    "name": "MdPanoramaHorizontal"
+  },
+  {
+    "ns": "image",
+    "name": "MdPanoramaVertical"
+  },
+  {
+    "ns": "image",
+    "name": "MdPanoramaWideAngle"
+  },
+  {
+    "ns": "image",
+    "name": "MdPhoto"
+  },
+  {
+    "ns": "image",
+    "name": "MdPhotoAlbum"
+  },
+  {
+    "ns": "image",
+    "name": "MdPhotoCamera"
+  },
+  {
+    "ns": "image",
+    "name": "MdPhotoFilter"
+  },
+  {
+    "ns": "image",
+    "name": "MdPhotoLibrary"
+  },
+  {
+    "ns": "image",
+    "name": "MdPhotoSizeSelectActual"
+  },
+  {
+    "ns": "image",
+    "name": "MdPhotoSizeSelectLarge"
+  },
+  {
+    "ns": "image",
+    "name": "MdPhotoSizeSelectSmall"
+  },
+  {
+    "ns": "image",
+    "name": "MdPictureAsPdf"
+  },
+  {
+    "ns": "image",
+    "name": "MdPortrait"
+  },
+  {
+    "ns": "image",
+    "name": "MdRemoveRedEye"
+  },
+  {
+    "ns": "image",
+    "name": "MdRotate90DegreesCcw"
+  },
+  {
+    "ns": "image",
+    "name": "MdRotateLeft"
+  },
+  {
+    "ns": "image",
+    "name": "MdRotateRight"
+  },
+  {
+    "ns": "image",
+    "name": "MdSlideshow"
+  },
+  {
+    "ns": "image",
+    "name": "MdStraighten"
+  },
+  {
+    "ns": "image",
+    "name": "MdStyle"
+  },
+  {
+    "ns": "image",
+    "name": "MdSwitchCamera"
+  },
+  {
+    "ns": "image",
+    "name": "MdSwitchVideo"
+  },
+  {
+    "ns": "image",
+    "name": "MdTagFaces"
+  },
+  {
+    "ns": "image",
+    "name": "MdTexture"
+  },
+  {
+    "ns": "image",
+    "name": "MdTimelapse"
+  },
+  {
+    "ns": "image",
+    "name": "MdTimer10"
+  },
+  {
+    "ns": "image",
+    "name": "MdTimer"
+  },
+  {
+    "ns": "image",
+    "name": "MdTimer3"
+  },
+  {
+    "ns": "image",
+    "name": "MdTimerOff"
+  },
+  {
+    "ns": "image",
+    "name": "MdTonality"
+  },
+  {
+    "ns": "image",
+    "name": "MdTransform"
+  },
+  {
+    "ns": "image",
+    "name": "MdTune"
+  },
+  {
+    "ns": "image",
+    "name": "MdViewComfy"
+  },
+  {
+    "ns": "image",
+    "name": "MdViewCompact"
+  },
+  {
+    "ns": "image",
+    "name": "MdVignette"
+  },
+  {
+    "ns": "image",
+    "name": "MdWbAuto"
+  },
+  {
+    "ns": "image",
+    "name": "MdWbCloudy"
+  },
+  {
+    "ns": "image",
+    "name": "MdWbIncandescent"
+  },
+  {
+    "ns": "image",
+    "name": "MdWbIridescent"
+  },
+  {
+    "ns": "image",
+    "name": "MdWbSunny"
+  },
+  {
+    "ns": "maps",
+    "name": "MdAddLocation"
+  },
+  {
+    "ns": "maps",
+    "name": "MdBeenhere"
+  },
+  {
+    "ns": "maps",
+    "name": "MdDirections"
+  },
+  {
+    "ns": "maps",
+    "name": "MdDirectionsBike"
+  },
+  {
+    "ns": "maps",
+    "name": "MdDirectionsBoat"
+  },
+  {
+    "ns": "maps",
+    "name": "MdDirectionsBus"
+  },
+  {
+    "ns": "maps",
+    "name": "MdDirectionsCar"
+  },
+  {
+    "ns": "maps",
+    "name": "MdDirectionsRailway"
+  },
+  {
+    "ns": "maps",
+    "name": "MdDirectionsRun"
+  },
+  {
+    "ns": "maps",
+    "name": "MdDirectionsSubway"
+  },
+  {
+    "ns": "maps",
+    "name": "MdDirectionsTransit"
+  },
+  {
+    "ns": "maps",
+    "name": "MdDirectionsWalk"
+  },
+  {
+    "ns": "maps",
+    "name": "MdEditLocation"
+  },
+  {
+    "ns": "maps",
+    "name": "MdEvStation"
+  },
+  {
+    "ns": "maps",
+    "name": "MdFlight"
+  },
+  {
+    "ns": "maps",
+    "name": "MdHotel"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLayers"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLayersClear"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalActivity"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalAirport"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalAtm"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalBar"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalCafe"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalCarWash"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalConvenienceStore"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalDining"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalDrink"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalFlorist"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalGasStation"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalGroceryStore"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalHospital"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalHotel"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalLaundryService"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalLibrary"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalMall"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalMovies"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalOffer"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalParking"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalPharmacy"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalPhone"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalPizza"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalPlay"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalPostOffice"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalPrintshop"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalSee"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalShipping"
+  },
+  {
+    "ns": "maps",
+    "name": "MdLocalTaxi"
+  },
+  {
+    "ns": "maps",
+    "name": "MdMap"
+  },
+  {
+    "ns": "maps",
+    "name": "MdMyLocation"
+  },
+  {
+    "ns": "maps",
+    "name": "MdNavigation"
+  },
+  {
+    "ns": "maps",
+    "name": "MdNearMe"
+  },
+  {
+    "ns": "maps",
+    "name": "MdPersonPin"
+  },
+  {
+    "ns": "maps",
+    "name": "MdPersonPinCircle"
+  },
+  {
+    "ns": "maps",
+    "name": "MdPinDrop"
+  },
+  {
+    "ns": "maps",
+    "name": "MdPlace"
+  },
+  {
+    "ns": "maps",
+    "name": "MdRateReview"
+  },
+  {
+    "ns": "maps",
+    "name": "MdRestaurant"
+  },
+  {
+    "ns": "maps",
+    "name": "MdRestaurantMenu"
+  },
+  {
+    "ns": "maps",
+    "name": "MdSatellite"
+  },
+  {
+    "ns": "maps",
+    "name": "MdStoreMallDirectory"
+  },
+  {
+    "ns": "maps",
+    "name": "MdStreetview"
+  },
+  {
+    "ns": "maps",
+    "name": "MdSubway"
+  },
+  {
+    "ns": "maps",
+    "name": "MdTerrain"
+  },
+  {
+    "ns": "maps",
+    "name": "MdTraffic"
+  },
+  {
+    "ns": "maps",
+    "name": "MdTrain"
+  },
+  {
+    "ns": "maps",
+    "name": "MdTram"
+  },
+  {
+    "ns": "maps",
+    "name": "MdTransferWithinAStation"
+  },
+  {
+    "ns": "maps",
+    "name": "MdZoomOutMap"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdApps"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdArrowBack"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdArrowDownward"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdArrowDropDown"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdArrowDropDownCircle"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdArrowDropUp"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdArrowForward"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdArrowUpward"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdCancel"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdCheck"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdChevronLeft"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdChevronRight"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdClose"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdCloseRounded"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdExpandLess"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdExpandMore"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdFirstPage"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdFullscreen"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdFullscreenExit"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdLastPage"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdMenu"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdMoreHoriz"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdMoreVert"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdRefresh"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdSubdirectoryArrowLeft"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdSubdirectoryArrowRight"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdUnfoldLess"
+  },
+  {
+    "ns": "navigation",
+    "name": "MdUnfoldMore"
+  },
+  {
+    "ns": "notification",
+    "name": "MdAdb"
+  },
+  {
+    "ns": "notification",
+    "name": "MdAirlineSeatFlat"
+  },
+  {
+    "ns": "notification",
+    "name": "MdAirlineSeatFlatAngled"
+  },
+  {
+    "ns": "notification",
+    "name": "MdAirlineSeatIndividualSuite"
+  },
+  {
+    "ns": "notification",
+    "name": "MdAirlineSeatLegroomExtra"
+  },
+  {
+    "ns": "notification",
+    "name": "MdAirlineSeatLegroomNormal"
+  },
+  {
+    "ns": "notification",
+    "name": "MdAirlineSeatLegroomReduced"
+  },
+  {
+    "ns": "notification",
+    "name": "MdAirlineSeatReclineExtra"
+  },
+  {
+    "ns": "notification",
+    "name": "MdAirlineSeatReclineNormal"
+  },
+  {
+    "ns": "notification",
+    "name": "MdBluetoothAudio"
+  },
+  {
+    "ns": "notification",
+    "name": "MdConfirmationNumber"
+  },
+  {
+    "ns": "notification",
+    "name": "MdDiscFull"
+  },
+  {
+    "ns": "notification",
+    "name": "MdDoNotDisturb"
+  },
+  {
+    "ns": "notification",
+    "name": "MdDoNotDisturbAlt"
+  },
+  {
+    "ns": "notification",
+    "name": "MdDoNotDisturbOff"
+  },
+  {
+    "ns": "notification",
+    "name": "MdDoNotDisturbOn"
+  },
+  {
+    "ns": "notification",
+    "name": "MdDriveEta"
+  },
+  {
+    "ns": "notification",
+    "name": "MdEnhancedEncryption"
+  },
+  {
+    "ns": "notification",
+    "name": "MdEventAvailable"
+  },
+  {
+    "ns": "notification",
+    "name": "MdEventBusy"
+  },
+  {
+    "ns": "notification",
+    "name": "MdEventNote"
+  },
+  {
+    "ns": "notification",
+    "name": "MdFolderSpecial"
+  },
+  {
+    "ns": "notification",
+    "name": "MdLiveTv"
+  },
+  {
+    "ns": "notification",
+    "name": "MdMms"
+  },
+  {
+    "ns": "notification",
+    "name": "MdMore"
+  },
+  {
+    "ns": "notification",
+    "name": "MdNetworkCheck"
+  },
+  {
+    "ns": "notification",
+    "name": "MdNetworkLocked"
+  },
+  {
+    "ns": "notification",
+    "name": "MdNoEncryption"
+  },
+  {
+    "ns": "notification",
+    "name": "MdOndemandVideo"
+  },
+  {
+    "ns": "notification",
+    "name": "MdPersonalVideo"
+  },
+  {
+    "ns": "notification",
+    "name": "MdPhoneBluetoothSpeaker"
+  },
+  {
+    "ns": "notification",
+    "name": "MdPhoneForwarded"
+  },
+  {
+    "ns": "notification",
+    "name": "MdPhoneInTalk"
+  },
+  {
+    "ns": "notification",
+    "name": "MdPhoneLocked"
+  },
+  {
+    "ns": "notification",
+    "name": "MdPhoneMissed"
+  },
+  {
+    "ns": "notification",
+    "name": "MdPhonePaused"
+  },
+  {
+    "ns": "notification",
+    "name": "MdPower"
+  },
+  {
+    "ns": "notification",
+    "name": "MdPriorityHigh"
+  },
+  {
+    "ns": "notification",
+    "name": "MdRvHookup"
+  },
+  {
+    "ns": "notification",
+    "name": "MdSdCard"
+  },
+  {
+    "ns": "notification",
+    "name": "MdSimCardAlert"
+  },
+  {
+    "ns": "notification",
+    "name": "MdSms"
+  },
+  {
+    "ns": "notification",
+    "name": "MdSmsFailed"
+  },
+  {
+    "ns": "notification",
+    "name": "MdSync"
+  },
+  {
+    "ns": "notification",
+    "name": "MdSyncDisabled"
+  },
+  {
+    "ns": "notification",
+    "name": "MdSyncProblem"
+  },
+  {
+    "ns": "notification",
+    "name": "MdSystemUpdate"
+  },
+  {
+    "ns": "notification",
+    "name": "MdTapAndPlay"
+  },
+  {
+    "ns": "notification",
+    "name": "MdTimeToLeave"
+  },
+  {
+    "ns": "notification",
+    "name": "MdVibration"
+  },
+  {
+    "ns": "notification",
+    "name": "MdVoiceChat"
+  },
+  {
+    "ns": "notification",
+    "name": "MdVpnLock"
+  },
+  {
+    "ns": "notification",
+    "name": "MdWc"
+  },
+  {
+    "ns": "notification",
+    "name": "MdWifi"
+  },
+  {
+    "ns": "places",
+    "name": "MdAcUnit"
+  },
+  {
+    "ns": "places",
+    "name": "MdAirportShuttle"
+  },
+  {
+    "ns": "places",
+    "name": "MdAllInclusive"
+  },
+  {
+    "ns": "places",
+    "name": "MdBeachAccess"
+  },
+  {
+    "ns": "places",
+    "name": "MdBusinessCenter"
+  },
+  {
+    "ns": "places",
+    "name": "MdCasino"
+  },
+  {
+    "ns": "places",
+    "name": "MdChildCare"
+  },
+  {
+    "ns": "places",
+    "name": "MdChildFriendly"
+  },
+  {
+    "ns": "places",
+    "name": "MdFitnessCenter"
+  },
+  {
+    "ns": "places",
+    "name": "MdFreeBreakfast"
+  },
+  {
+    "ns": "places",
+    "name": "MdGolfCourse"
+  },
+  {
+    "ns": "places",
+    "name": "MdHotTub"
+  },
+  {
+    "ns": "places",
+    "name": "MdKitchen"
+  },
+  {
+    "ns": "places",
+    "name": "MdPool"
+  },
+  {
+    "ns": "places",
+    "name": "MdRoomService"
+  },
+  {
+    "ns": "places",
+    "name": "MdRvHookup"
+  },
+  {
+    "ns": "places",
+    "name": "MdSmokeFree"
+  },
+  {
+    "ns": "places",
+    "name": "MdSmokingRooms"
+  },
+  {
+    "ns": "places",
+    "name": "MdSpa"
+  },
+  {
+    "ns": "social",
+    "name": "MdCake"
+  },
+  {
+    "ns": "social",
+    "name": "MdDomain"
+  },
+  {
+    "ns": "social",
+    "name": "MdGroup"
+  },
+  {
+    "ns": "social",
+    "name": "MdGroupAdd"
+  },
+  {
+    "ns": "social",
+    "name": "MdLocationCity"
+  },
+  {
+    "ns": "social",
+    "name": "MdMood"
+  },
+  {
+    "ns": "social",
+    "name": "MdMoodBad"
+  },
+  {
+    "ns": "social",
+    "name": "MdNotifications"
+  },
+  {
+    "ns": "social",
+    "name": "MdNotificationsActive"
+  },
+  {
+    "ns": "social",
+    "name": "MdNotificationsNone"
+  },
+  {
+    "ns": "social",
+    "name": "MdNotificationsOff"
+  },
+  {
+    "ns": "social",
+    "name": "MdNotificationsPaused"
+  },
+  {
+    "ns": "social",
+    "name": "MdPages"
+  },
+  {
+    "ns": "social",
+    "name": "MdPartyMode"
+  },
+  {
+    "ns": "social",
+    "name": "MdPeople"
+  },
+  {
+    "ns": "social",
+    "name": "MdPeopleOutline"
+  },
+  {
+    "ns": "social",
+    "name": "MdPerson"
+  },
+  {
+    "ns": "social",
+    "name": "MdPersonAdd"
+  },
+  {
+    "ns": "social",
+    "name": "MdPersonOutline"
+  },
+  {
+    "ns": "social",
+    "name": "MdPlusOne"
+  },
+  {
+    "ns": "social",
+    "name": "MdPoll"
+  },
+  {
+    "ns": "social",
+    "name": "MdPublic"
+  },
+  {
+    "ns": "social",
+    "name": "MdSchool"
+  },
+  {
+    "ns": "social",
+    "name": "MdSentimentDissatisfied"
+  },
+  {
+    "ns": "social",
+    "name": "MdSentimentNeutral"
+  },
+  {
+    "ns": "social",
+    "name": "MdSentimentSatisfied"
+  },
+  {
+    "ns": "social",
+    "name": "MdSentimentVeryDissatisfied"
+  },
+  {
+    "ns": "social",
+    "name": "MdSentimentVerySatisfied"
+  },
+  {
+    "ns": "social",
+    "name": "MdShare"
+  },
+  {
+    "ns": "social",
+    "name": "MdWhatshot"
+  },
+  {
+    "ns": "toggle",
+    "name": "MdCheckBox"
+  },
+  {
+    "ns": "toggle",
+    "name": "MdCheckBoxOutlineBlank"
+  },
+  {
+    "ns": "toggle",
+    "name": "MdIndeterminateCheckBox"
+  },
+  {
+    "ns": "toggle",
+    "name": "MdRadioButtonChecked"
+  },
+  {
+    "ns": "toggle",
+    "name": "MdRadioButtonUnchecked"
+  },
+  {
+    "ns": "toggle",
+    "name": "MdStar"
+  },
+  {
+    "ns": "toggle",
+    "name": "MdStarBorder"
+  },
+  {
+    "ns": "toggle",
+    "name": "MdStarHalf"
+  }
+]
