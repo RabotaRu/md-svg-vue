@@ -36,7 +36,7 @@
       };
 
       return h('svg', data, [
-        {{paths}}
+        {{paths}}{{elements}}
       ]);
     }
   };

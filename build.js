@@ -3,6 +3,9 @@ const fs = require('fs');
 const jsonFormat = require('json-format');
 const { promisify } = require('util');
 const kebabCase = require('lodash').kebabCase;
+const { JSDOM } = require('jsdom');
+
+const { document } = new JSDOM('').window;
 
 const readFileAsync = promisify(fs.readFile);
 const readDirAsync = promisify(fs.readdir);
@@ -45,12 +48,19 @@ const copyPackage = async (sourcePath, targetPath) => {
 };
 
 const populateTemplate = (template, component) => {
+  let elementsString = componentElements(component.elements);
+
+  if (component.paths.length && component.elements.length) {
+    elementsString = `, ${elementsString}`;
+  }
+
   return {
     ns: component.ns,
     name: component.name,
     content: template
       .replace(/\{\{icon\}\}/g, kebabCase(component.name))
       .replace(/\{\{paths\}\}/g, componentPaths(component.paths))
+      .replace(/\{\{elements\}\}/g, elementsString)
   }
 };
 
@@ -66,6 +76,28 @@ const componentPaths = (paths) => {
   return paths.map(path => {
     return template.replace(/\{\{path\}\}/g, path);
   }).join(', ');
+};
+
+const componentElements = (elements) => {
+  if (!elements.length) {
+    return ''
+  }
+
+  const elementsString = elements.map(element => {
+    return `h('${element.name}', {
+          attrs: {
+            ${element.attributes.map(attribute => {
+              return `${attribute.name}: '${attribute.value}'`
+            }).join(`,
+            `)}
+          },
+          style: {
+            fill: this.color
+          }
+        })`
+  }).join(', ');
+
+  return `${elementsString}`;
 };
 
 const buildIconComponents = async (templatePath, components) => {
@@ -106,10 +138,18 @@ const writeIndex = async (ns, buildPath, components, global = false) => {
   writeFileAsync(path.join(buildPath, `index.js`), fileContent);
 };
 
+const createDomElement = (html) => {
+  const tempElement = document.createElement('div');
+  tempElement.innerHTML = html;
+  return tempElement.firstChild;
+}
+
 const buildIconBodyList = (ns, svgPath, svgList) => {
   let list = svgList.filter(svg => /(24px)/gi.test(svg))
     .map(async svg => {
-      return {
+      const svgFile = await readFileAsync(path.join(svgPath, svg));
+
+      const body = {
         ns,
         name: toPascalCase(svg).slice(0, -8).slice(2),
         paths: await (async () => {
@@ -117,7 +157,6 @@ const buildIconBodyList = (ns, svgPath, svgList) => {
           const dRegex = new RegExp( regexStr, 'i' );
           const dGlobalRegex = new RegExp( regexStr, 'gi' );
 
-          const svgFile = await readFileAsync(path.join(svgPath, svg));
           const matches = svgFile.toString().match( dGlobalRegex );
 
           const paths = [];
@@ -127,15 +166,39 @@ const buildIconBodyList = (ns, svgPath, svgList) => {
               const matched = d && d.match( dRegex );
               return matched ? (
                 p.push( matched[1] ),
-                p
+                  p
               ) : p;
             }, paths)
           }
 
           return paths;
-        })()
-      };
+        })(),
+        elements: []
+      }
+
+      const svgElement = createDomElement(svgFile.toString());
+      [...svgElement.children].forEach(child => {
+        const tagName = child.tagName.toLowerCase();
+        if (tagName !== 'path') {
+          const svgPart = {
+            name: tagName,
+            attributes: []
+          };
+
+          [...child.attributes].forEach(({ name, value }) => {
+            svgPart.attributes.push({
+              name,
+              value
+            })
+          })
+
+          body.elements.push(svgPart);
+        }
+      });
+
+      return body;
     });
+
   return Promise.all(list);
 };
 

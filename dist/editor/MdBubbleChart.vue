@@ -36,7 +36,34 @@
       };
 
       return h('svg', data, [
-        
+        h('circle', {
+          attrs: {
+            cx: '7.2',
+            cy: '14.4',
+            r: '3.2'
+          },
+          style: {
+            fill: this.color
+          }
+        }), h('circle', {
+          attrs: {
+            cx: '14.8',
+            cy: '18',
+            r: '2'
+          },
+          style: {
+            fill: this.color
+          }
+        }), h('circle', {
+          attrs: {
+            cx: '15.2',
+            cy: '8.8',
+            r: '4.8'
+          },
+          style: {
+            fill: this.color
+          }
+        })
       ]);
     }
   };

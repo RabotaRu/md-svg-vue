@@ -24,7 +24,7 @@
   "author": "Alexander Belov <ipritoflex@yandex.ru>",
   "license": "MIT",
   "scripts": {
-    "clean": "rm -rf dist",
+    "clean": "rimraf dist",
     "prebuild": "npm run clean && mkdir dist",
     "build": "node build.js && cp *LICENSE dist && cp *.md dist",
     "release": "node ./node_modules/.bin/standard-version",

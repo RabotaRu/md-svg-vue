@@ -43,6 +43,13 @@
           style: {
             fill: this.color
           }
+        }), h('g', {
+          attrs: {
+            fill: '#010101'
+          },
+          style: {
+            fill: this.color
+          }
         })
       ]);
     }

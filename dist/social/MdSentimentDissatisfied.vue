@@ -43,6 +43,24 @@
           style: {
             fill: this.color
           }
+        }), h('circle', {
+          attrs: {
+            cx: '15.5',
+            cy: '9.5',
+            r: '1.5'
+          },
+          style: {
+            fill: this.color
+          }
+        }), h('circle', {
+          attrs: {
+            cx: '8.5',
+            cy: '9.5',
+            r: '1.5'
+          },
+          style: {
+            fill: this.color
+          }
         })
       ]);
     }
