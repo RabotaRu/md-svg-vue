@@ -43,18 +43,20 @@
           style: {
             fill: this.color
           }
-        }), h('path', {
-          attrs: {
-            d: 'M6 5H4v16c0 1.1.89 2 2 2h10v-2H6V5z'
-          },
-          style: {
-            fill: this.color
-          }
-        }), h('circle', {
+        }),
+        h('circle', {
           attrs: {
             cx: '14',
             cy: '12.5',
             r: '2.5'
+          },
+          style: {
+            fill: this.color
+          }
+        }),
+        h('path', {
+          attrs: {
+            d: 'M6 5H4v16c0 1.1.89 2 2 2h10v-2H6V5z'
           },
           style: {
             fill: this.color

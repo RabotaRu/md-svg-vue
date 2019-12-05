@@ -43,7 +43,8 @@
           style: {
             fill: this.color
           }
-        }), h('path', {
+        }),
+        h('path', {
           attrs: {
             d: 'M0 20h24v4H0z'
           },

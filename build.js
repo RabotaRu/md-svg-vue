@@ -19,6 +19,7 @@ const DIST_PATH = path.resolve(__dirname, 'dist');
 const SVG_PATH = path.resolve(__dirname, 'node_modules/@rabota/icons');
 const TPL_PATH = path.resolve(__dirname, 'build.vue');
 const PKG_FILE = path.resolve(__dirname, 'package.json');
+const IGNORE_ATTRIBUTES = ['fill', 'fill-opacity', 'opacity'];
 
 function toPascalCase (str) {
   return str
@@ -48,34 +49,13 @@ const copyPackage = async (sourcePath, targetPath) => {
 };
 
 const populateTemplate = (template, component) => {
-  let elementsString = componentElements(component.elements);
-
-  if (component.paths.length && component.elements.length) {
-    elementsString = `, ${elementsString}`;
-  }
-
   return {
     ns: component.ns,
     name: component.name,
     content: template
       .replace(/\{\{icon\}\}/g, kebabCase(component.name))
-      .replace(/\{\{paths\}\}/g, componentPaths(component.paths))
-      .replace(/\{\{elements\}\}/g, elementsString)
+      .replace(/\{\{elements\}\}/g, componentElements(component.elements))
   }
-};
-
-const componentPaths = (paths) => {
-  const template = `h('path', {
-          attrs: {
-            d: '{{path}}'
-          },
-          style: {
-            fill: this.color
-          }
-        })`;
-  return paths.map(path => {
-    return template.replace(/\{\{path\}\}/g, path);
-  }).join(', ');
 };
 
 const componentElements = (elements) => {
@@ -95,7 +75,8 @@ const componentElements = (elements) => {
             fill: this.color
           }
         })`
-  }).join(', ');
+  }).join(`,
+        `);
 
   return `${elementsString}`;
 };
@@ -152,55 +133,46 @@ const buildIconBodyList = (ns, svgPath, svgList) => {
       const body = {
         ns,
         name: toPascalCase(svg).slice(0, -8).slice(2),
-        paths: await (async () => {
-          const regexStr = '\\sd="([ a-zA-Z0-9.-]+)"';
-          const dRegex = new RegExp( regexStr, 'i' );
-          const dGlobalRegex = new RegExp( regexStr, 'gi' );
-
-          const matches = svgFile.toString().match( dGlobalRegex );
-
-          const paths = [];
-
-          if (matches) {
-            matches.reduce((p, d) => {
-              const matched = d && d.match( dRegex );
-              return matched ? (
-                p.push( matched[1] ),
-                  p
-              ) : p;
-            }, paths)
-          }
-
-          return paths;
-        })(),
         elements: []
       }
 
       const svgElement = createDomElement(svgFile.toString());
-      [...svgElement.children].forEach(child => {
-        const tagName = child.tagName.toLowerCase();
-        if (tagName !== 'path') {
-          const svgPart = {
-            name: tagName,
-            attributes: []
-          };
 
-          [...child.attributes].forEach(({ name, value }) => {
-            svgPart.attributes.push({
-              name,
-              value
-            })
-          })
-
-          body.elements.push(svgPart);
-        }
-      });
+      appendSvgElementsToArray(svgElement, body.elements);
 
       return body;
     });
 
   return Promise.all(list);
 };
+
+const appendSvgElementsToArray = (node, arr) => {
+  [...node.children].forEach(child => {
+    const tagName = child.tagName.toLowerCase();
+
+    if (tagName === 'g') {
+      return appendSvgElementsToArray(child, arr);
+    }
+
+    const svgPart = {
+      name: child.tagName.toLowerCase(),
+      attributes: []
+    };
+
+    [...child.attributes].forEach(({ name, value }) => {
+      if (IGNORE_ATTRIBUTES.includes(name)) {
+        return;
+      }
+
+      svgPart.attributes.push({
+        name,
+        value
+      })
+    })
+
+    arr.push(svgPart);
+  });
+}
 
 async function build () {
   let allComponents = [];
